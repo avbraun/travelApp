@@ -62,7 +62,7 @@ router.post('/create', async (req, res, next) =>{
   try {
     const snapshot = await firebaseDb.ref(`/trips/T${tripId}`).once('value')
     const activities = snapshot.val()
-    const activitiesArr = Object.entries(activities)
+    const activitiesArr = activities ? Object.entries(activities) : [];
     const foundActivity = activitiesArr.find(([key, activity]) => {
       return activity.link === newActivity.link
     })
