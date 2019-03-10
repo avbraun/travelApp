@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 const config = {
-  apiKey: 'AIzaSyC3E3OKZjsm7juflD58RUzxj6_AN8xu6DI',
-  authDomain: 'caaapstone.firebaseapp.com',
-  databaseURL: 'https://caaapstone.firebaseio.com',
-  projectId: 'caaapstone',
-  storageBucket: '',
-  messagingSenderId: '139076078695'
-}
+  apiKey: "AIzaSyDEreXFsyCCDntYhSLAbXukWpgsJ1bdVhM",
+  authDomain: "flock-2.firebaseapp.com",
+  databaseURL: "https://flock-2.firebaseio.com",
+  projectId: "flock-2",
+  storageBucket: "flock-2.appspot.com",
+  messagingSenderId: "875703219301"
+};
 
 firebase.initializeApp(config)
 
